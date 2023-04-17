@@ -1,0 +1,277 @@
+header.app__header {
+  margin: 284px 0 40px 351px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    margin: 0 0 0 0;
+  }
+}
+header.app__header section.app__header-section-leftside {
+  width: 369px;
+  height: 514px;
+  border-radius: 34px;
+  background: -webkit-gradient(linear, left top, left bottom, from(hsl(252deg, 100%, 67%)), to(hsl(241deg, 81%, 54%)));
+  background: linear-gradient(180deg, hsl(252deg, 100%, 67%) 0%, hsl(241deg, 81%, 54%) 100%);
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-leftside {
+    width: 375px;
+    height: 357px;
+    border-radius: 0 0 34px 34px;
+  }
+}
+header.app__header section.app__header-section-leftside div.div-leftside-top {
+  margin: 39px 0 0 120px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-leftside div.div-leftside-top {
+    margin: 24px 0 0 142px;
+  }
+}
+header.app__header section.app__header-section-leftside div.div-leftside-top p {
+  font-weight: 500;
+  font-size: 23px;
+  letter-spacing: 0.03em;
+  color: var(--clr-PaleBlue);
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-leftside div.div-leftside-top p {
+    font-size: 18px;
+    letter-spacing: 0;
+    margin: 0 0 0 0;
+  }
+}
+header.app__header section.app__header-section-leftside div.div-leftside-center {
+  width: 201px;
+  height: 197px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(78, 33, 202, 0.45)), to(rgba(36, 33, 202, 0.05)));
+  background: linear-gradient(180deg, rgba(78, 33, 202, 0.45) 0%, rgba(36, 33, 202, 0.05) 100%);
+  border-radius: 50%;
+  margin: 38px 0 0 84px;
+  padding: 44px 0 0 60px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-leftside div.div-leftside-center {
+    width: 141px;
+    height: 138px;
+    margin: 27px 0 0 117px;
+    padding: 26px 0 0 39px;
+  }
+}
+header.app__header section.app__header-section-leftside div.div-leftside-center p.first {
+  font-weight: 700;
+  font-size: 72px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-leftside div.div-leftside-center p.first {
+    font-size: 56px;
+  }
+}
+header.app__header section.app__header-section-leftside div.div-leftside-center p.seconed {
+  font-weight: 500;
+  font-size: 17px;
+  color: var(--clr-LightLavender);
+  margin: -15px 0 0 15px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-leftside div.div-leftside-center p.seconed {
+    font-size: 16px;
+    margin: -20px 0 0 9px;
+  }
+}
+header.app__header section.app__header-section-leftside div.div-leftside-bottom {
+  margin: 31px 0 0 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-leftside div.div-leftside-bottom {
+    margin: 28px 0 0 0;
+  }
+}
+header.app__header section.app__header-section-leftside div.div-leftside-bottom h1 {
+  font-weight: 800;
+  font-size: 32px;
+  color: var(--clr-PaleBlue);
+  margin: 0 0 0 141px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-leftside div.div-leftside-bottom h1 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 0 0 155px;
+  }
+}
+header.app__header section.app__header-section-leftside div.div-leftside-bottom p {
+  width: 259px;
+  font-weight: 500;
+  margin: 14px 0 0 55px;
+  color: var(--clr-PaleBlue);
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-leftside div.div-leftside-bottom p {
+    margin: 9px 0 0 59px;
+    font-size: 16px;
+  }
+}
+header.app__header section.app__header-section-rightside {
+  width: 394px;
+  height: 514px;
+  margin: 0 0 0 -26px;
+  border-radius: 0 34px 34px 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside {
+    width: 375px;
+    height: 479px;
+    margin: -25px 0 0 0;
+    border-radius: 0;
+  }
+}
+header.app__header section.app__header-section-rightside .same {
+  margin: 17px 0 0 12px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside .same {
+    margin: 17px 0 0 9px;
+    font-size: 16px;
+  }
+}
+header.app__header section.app__header-section-rightside p.score {
+  margin: 17px 0 0 81px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--clr-DarkGrayBlue);
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside p.score {
+    margin: 18px 0 0 124px;
+    font-size: 16px;
+  }
+}
+header.app__header section.app__header-section-rightside p.score span {
+  color: hsl(0deg, 0%, 61%);
+}
+header.app__header section.app__header-section-rightside div.img-icon {
+  margin: 18px 0 0 17px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.img-icon {
+    margin: 19px 0 0 17px;
+  }
+}
+header.app__header section.app__header-section-rightside div.div-title {
+  margin: 39px 0 0 68px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.div-title {
+    margin: 50px 0 0 33px;
+  }
+}
+header.app__header section.app__header-section-rightside div.div-title p {
+  font-weight: 500;
+  font-size: 23px;
+  letter-spacing: 0.01em;
+  color: var(--clr-DarkGrayBlue);
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.div-title p {
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+}
+header.app__header section.app__header-section-rightside div.div-Reaction {
+  background-color: hsla(0deg, 100%, 67%, 0.05);
+  margin: 28px 0 0 64px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.div-Reaction {
+    margin: 18px 0 0 29px;
+  }
+}
+header.app__header section.app__header-section-rightside div.div-Reaction p.Reaction {
+  color: var(--clr-LightRed);
+}
+header.app__header section.app__header-section-rightside div.div-Memory {
+  background-color: hsla(47deg, 81%, 65%, 0.1);
+  margin: 17px 0 0 64px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.div-Memory {
+    margin: 16px 0 0 29px;
+  }
+}
+header.app__header section.app__header-section-rightside div.div-Memory p.Memory {
+  color: var(--clr-OrangeyYellow);
+}
+header.app__header section.app__header-section-rightside div.div-Memory p.score {
+  margin: 17px 0 0 84px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.div-Memory p.score {
+    margin: 16px 0 0 123px;
+  }
+}
+header.app__header section.app__header-section-rightside div.div-Verbal {
+  background-color: hsla(166deg, 100%, 37%, 0.06);
+  margin: 15px 0 0 64px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.div-Verbal {
+    margin: 14px 0 0 29px;
+  }
+}
+header.app__header section.app__header-section-rightside div.div-Verbal p.Verbal {
+  color: var(--clr-GreenTeal);
+}
+header.app__header section.app__header-section-rightside div.div-Verbal p.score {
+  margin: 17px 0 0 100px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.div-Verbal p.score {
+    margin: 18px 0 0 136px;
+  }
+}
+header.app__header section.app__header-section-rightside div.div-Visual {
+  background-color: hsla(234deg, 85%, 45%, 0.05);
+  margin: 16px 0 0 64px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.div-Visual {
+    margin: 16px 0 0 29px;
+  }
+}
+header.app__header section.app__header-section-rightside div.div-Visual p.Visual {
+  color: var(--clr-CobaltBlue);
+}
+header.app__header section.app__header-section-rightside div.div-Visual p.score {
+  margin: 17px 0 0 104px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside div.div-Visual p.score {
+    margin: 17px 0 0 140px;
+  }
+}
+header.app__header section.app__header-section-rightside button {
+  background-color: var(--clr-DarkGrayBlue);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  margin: 41px 0 0 64px;
+  border-radius: 28px;
+  border: none;
+}
+header.app__header section.app__header-section-rightside button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(hsl(252deg, 100%, 67%)), to(hsl(241deg, 81%, 54%)));
+  background: linear-gradient(180deg, hsl(252deg, 100%, 67%) 0%, hsl(241deg, 81%, 54%) 100%);
+  cursor: pointer;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-rightside button {
+    margin: 24px 0 0 29px;
+    font-size: 16px;
+  }
+}
