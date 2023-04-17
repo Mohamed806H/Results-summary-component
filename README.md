@@ -8,8 +8,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Links
 
-- Solution URL:()
-- Live Site URL:()
+- Solution URL:(https://www.frontendmentor.io/solutions/results-summary-component-n3zFfc53Wx)
+- Live Site URL:(https://mohamed806h.github.io/Results-summary-component/)
 
 ## Built with
 
